@@ -2,6 +2,9 @@
   "name": "semmiedev.friend-pov",
   "displayName": "Friend POV",
   "version": "1.0.0",
+  "author": {
+    "name": "SemmieDev"
+  },
   "unity": "2022.3",
   "description": "Core package for my Friend POV system that can be used by other systems to display the POV of friends that also have this system",
   "legacyFolders": {
