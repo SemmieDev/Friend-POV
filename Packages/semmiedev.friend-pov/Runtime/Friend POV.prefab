@@ -48,6 +48,7 @@ MonoBehaviour:
   shapeType: 0
   radius: 0.5
   height: 2
+  size: {x: 1, y: 1, z: 1}
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   localOnly: 0
@@ -143,7 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1276.0
+  vrcfuryVersion: 1.1429.0
   somethingIsBroken: 0
   config:
     features: []
@@ -161,7 +162,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: a5c51517394961d4aa14f9bcd72def81|Assets/Friend POV/Internal/Controller.controller
+            id: a5c51517394961d4aa14f9bcd72def81|Packages/semmiedev.friend-pov/Runtime/Internal/Controller.controller
             objRef: {fileID: 9100000, guid: a5c51517394961d4aa14f9bcd72def81, type: 2}
           type: 5
         menus:
@@ -169,7 +170,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: e8ef35d1377237344aa944917f634d78|Assets/Friend POV/Internal/Menu.asset
+            id: e8ef35d1377237344aa944917f634d78|Packages/semmiedev.friend-pov/Runtime/Internal/Menu.asset
             objRef: {fileID: 11400000, guid: e8ef35d1377237344aa944917f634d78, type: 2}
           prefix: Friend POV
         prms:
@@ -177,7 +178,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: be0fa24b30b47c5429cdbc4be4528159|Assets/Friend POV/Internal/Parameters.asset
+            id: be0fa24b30b47c5429cdbc4be4528159|Packages/semmiedev.friend-pov/Runtime/Internal/Parameters.asset
             objRef: {fileID: 11400000, guid: be0fa24b30b47c5429cdbc4be4528159, type: 2}
         smoothedPrms: []
         globalParams:
@@ -189,6 +190,7 @@ MonoBehaviour:
         rootBindingsApplyToAvatar: 0
         rewriteBindings: []
         allowMissingAssets: 0
+        injectParams: []
         injectSpsDepthParam: 
         injectSpsVelocityParam: 
         controller:
@@ -399,7 +401,7 @@ Camera:
   m_Depth: -2
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4293128191
+    m_Bits: 4293389311
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: a3abd7763d559d74eaf1adfeb4bb4f6a, type: 2}
   m_TargetDisplay: 0
@@ -492,6 +494,7 @@ MonoBehaviour:
   shapeType: 0
   radius: 5
   height: 2
+  size: {x: 1, y: 1, z: 1}
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   localOnly: 0
@@ -500,6 +503,7 @@ MonoBehaviour:
   - SemmieDev/Friend POV/Activate
   allowSelf: 0
   allowOthers: 1
+  useFaceProximity: 0
   receiverType: 0
   parameter: Activator Detected
   minVelocity: 0.05
@@ -603,6 +607,7 @@ MonoBehaviour:
   shapeType: 0
   radius: 0.5
   height: 2
+  size: {x: 1, y: 1, z: 1}
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   localOnly: 0
@@ -915,6 +920,7 @@ MonoBehaviour:
   shapeType: 0
   radius: 0.5
   height: 2
+  size: {x: 1, y: 1, z: 1}
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   localOnly: 0
@@ -923,6 +929,7 @@ MonoBehaviour:
   - SemmieDev/Friend POV/Lock
   allowSelf: 0
   allowOthers: 1
+  useFaceProximity: 0
   receiverType: 0
   parameter: Locked
   minVelocity: 0.05
@@ -1009,6 +1016,7 @@ MonoBehaviour:
   shapeType: 0
   radius: 0.5
   height: 2
+  size: {x: 1, y: 1, z: 1}
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   localOnly: 0
@@ -1096,6 +1104,7 @@ MonoBehaviour:
   shapeType: 0
   radius: 0.5
   height: 2
+  size: {x: 1, y: 1, z: 1}
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   localOnly: 0
@@ -1104,6 +1113,7 @@ MonoBehaviour:
   - SemmieDev/Friend POV/Blit
   allowSelf: 0
   allowOthers: 1
+  useFaceProximity: 0
   receiverType: 0
   parameter: Blit Detected
   minVelocity: 0.05
@@ -1157,6 +1167,7 @@ MonoBehaviour:
   shapeType: 0
   radius: 0.5
   height: 2
+  size: {x: 1, y: 1, z: 1}
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   localOnly: 0
@@ -1165,6 +1176,7 @@ MonoBehaviour:
   - SemmieDev/Friend POV/Output
   allowSelf: 0
   allowOthers: 1
+  useFaceProximity: 0
   receiverType: 0
   parameter: Output Detected
   minVelocity: 0.05
@@ -1185,6 +1197,7 @@ MonoBehaviour:
   shapeType: 0
   radius: 0.5
   height: 2
+  size: {x: 1, y: 1, z: 1}
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   localOnly: 0
